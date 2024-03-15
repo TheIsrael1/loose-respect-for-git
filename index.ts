@@ -38,6 +38,28 @@ git add -p
 add changes to the staging area interactively and commit them separately braking up your changes into smaller commits
 */
 
+/* 
+git stash list
+show all the stashes
+*/
 
-/*  new change  1*/  
+/* 
+git stash pop
+apply the changes and remove the stash
+*/
 
+/* 
+
+git stash apply
+apply the changes and keep the stash
+*/
+
+/* 
+git stash show -p stash@{2}
+show the changes in the stash
+*/
+
+/* 
+git stash clear
+remove all the stashes
+*/
